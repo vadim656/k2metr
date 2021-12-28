@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "css": "npx tailwindcss -o build.css --minify"
+  },
+  "dependencies": {
+    "@woocommerce/woocommerce-rest-api": "^1.0.1",
+    "axios": "^0.24.0",
+    "axios-oauth-1.0a": "^0.3.4",
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.0.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.7",
+    "vite": "^2.7.2"
+  }
+}
