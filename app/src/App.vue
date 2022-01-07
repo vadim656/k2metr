@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="tracking-wider">
     <TheHeader />
     <BottomHeader />
     <div
@@ -10,14 +10,18 @@
       <Block1 class="" />
       <Block2 class=" row-span-3" />
     </div>
-    <div class="flex gap-4 justify-between my-6">
+    <div class="flex gap-4 my-6 justify-between container mx-auto w-full">
       <LogosPart />
       <LogosPart />
       <LogosPart />
       <LogosPart />
       <LogosPart />
       <LogosPart />
+      <LogosPart /> 
 
+    </div>
+    <div class="container mx-auto w-full my-6">
+      <Block3/>
     </div>
   </div>
 </template>
@@ -30,6 +34,7 @@ import Slider from './components/Slider.vue'
 import Block1 from './components/Block-1.vue'
 import Block2 from './components/Block-2.vue'
 import LogosPart from './components/LogosPart.vue'
+import Block3 from './components/UX/Block-3.vue'
 
 export default {
   components: {
@@ -39,8 +44,9 @@ export default {
     Slider,
     Block1,
     Block2,
-    LogosPart
-  }
+    LogosPart,
+    Block3
+}
 }
 </script>
 

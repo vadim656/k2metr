@@ -4,6 +4,7 @@
         <div class="flex flex-col justify-start items-start text-[14px]">
             <span>Клей</span>
             <span class="font-bold">от 650 руб.</span>
+            <a class="pt-2 underline" href="/">Перейти</a>
         </div>
     </div>
 </template>
