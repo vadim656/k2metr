@@ -8,10 +8,9 @@
     "css": "npx tailwindcss -o build.css --minify"
   },
   "dependencies": {
-    "@woocommerce/woocommerce-rest-api": "^1.0.1",
     "axios": "^0.24.0",
-    "axios-oauth-1.0a": "^0.3.4",
-    "vue": "^3.2.25"
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.12"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.0.0",
