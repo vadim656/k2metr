@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full container mx-auto flex my-6">
+  <div class="w-full container mx-auto flex my-6 bg-transparent">
     <div class="w-full flex justify-between items-center">
       <div>
         <a href="/">

@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full bg-white box-1">
-      <header class="w-full container mx-auto flex justify-between  h-[60px]">
+  <div class="w-full bg-white drop-shadow-xl">
+      <div class="w-full container mx-auto flex justify-between  h-[60px]">
           <div class="flex items-center gap-12">
               <div class="font-bold">Севастополь</div>
               <div>
@@ -20,7 +20,7 @@
               </div>
           </div>
           
-      </header>
+      </div>
   </div>
 </template>
 
